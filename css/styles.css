@@ -15,7 +15,7 @@ h1{
     font-weight: bold;
 }
 .navbar{
-    padding-bottom: 4.5rem;
+    padding: 0 0 4.5rem 0;
 }
 .nav-link{
     font-size: 1.2rem;
@@ -27,4 +27,18 @@ h1{
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+}
+#features{
+    padding:5%;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+.icon{
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #FF4C68;
 }
