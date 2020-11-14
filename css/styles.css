@@ -3,6 +3,10 @@ h1{
     font-size: 3rem;
     line-height: 1.5;
 }
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
 #title{
     background-color: #FF4C68;
     color: #fff;
@@ -41,4 +45,25 @@ h1{
 }
 .icon:hover{
     color: #FF4C68;
+}
+#testimonials{
+    background-color: #FF4C68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #FF4C68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
 }
