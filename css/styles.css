@@ -50,7 +50,6 @@ h2{
     background-color: #FF4C68;
     color: white;
     text-align: center;
-    padding: 7% 15%;
     font-family: 'Montserrat-Light', sans-serif;
 }
 .testimonial-image{
@@ -66,4 +65,7 @@ h2{
 .press-image{
     width: 15%;
     margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
 }
