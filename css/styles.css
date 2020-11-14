@@ -12,7 +12,7 @@ h2{
     color: #fff;
 }
 .container-fluid{
-    padding: 3% 15% 3% 15%;
+    padding: 3% 15% 8% 15%;
 }
 .navbar-brand{
     font-size: 2.5rem;
@@ -31,9 +31,13 @@ h2{
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 #features{
     padding:5%;
+    position: relative;
+    background-color: white;
 }
 .feature-box{
     text-align: center;
@@ -75,4 +79,31 @@ h2{
 .card-container{
     text-align: center;
     padding: 3% 2%;
+}
+#cta{
+    background-color: #FF4C68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    padding: 20px 10px;
+}
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
 }
